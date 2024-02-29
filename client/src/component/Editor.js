@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Codemirror from 'codemirror'
+//import Codemirror from 'codemirror'
 // import 'codemirror/lib/codemirror.css'
 // import 'codemirror/mode/javascript/javascript'
 // import 'codemirror/theme/dracula.css'
@@ -7,8 +7,8 @@ import Codemirror from 'codemirror'
 // import 'codemirror/addon/edit/closebrackets'
 
 const Editor = () => {
-    useEffect(()=>{
-        async function init(){
+    // useEffect(()=>{
+        //async function init(){
             // Codemirror.fromTextArea(document.getElementById('realTimeEditor'),{
             //     mode:{name:'javascript', json:true},
             //     // theme:'dracula',
@@ -17,8 +17,8 @@ const Editor = () => {
             //     // lineNumber:true,
 
             // })
-        }
-    })
+      //  }
+    //})
   return (
     
         <textarea id="realTimeEditor" className='textArea'></textarea>
