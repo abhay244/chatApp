@@ -1,0 +1,139 @@
+.homePageWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  color: #fff;
+}
+
+.formWrapper{
+  background: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+
+}
+.homePageLogo{
+  height: 150px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer{
+  position:fixed;
+  bottom: 0;
+}
+
+.mainLabel{
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.inputField{
+  display:flex;
+  flex-direction: column;
+}
+
+.input{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  background: #eee;
+  font-weight: bold;
+}
+
+.btn{
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+
+.joinBtn{
+  background: rgb(38, 160, 38);
+  width: 100px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.joinBtn:hover,.copyRoomId:hover,.leaveRoom:hover{
+  background: green;
+}
+
+.createRoom{
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn{
+  color: rgb(38, 160, 38);
+  text-decoration: none;
+}
+
+.createNewBtn:hover{
+  color: green;
+}
+
+.mainWrapper{
+  display: flex;
+  height: 100vh;
+}
+
+.leftWrapper{
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  background: black;
+  color: #fff;
+  padding: 10px;
+  
+}
+
+.editorPageLogo{
+  width: 200px;
+  height: 150px;
+}
+
+.copyRoomId{
+  margin-top: auto;
+  background: rgb(47, 148, 47);
+}
+
+.leaveRoom{
+  margin-top: 10px;
+  background: rgb(47, 148, 47);
+}
+
+.joinedMembers{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.client{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.rightWrapper{
+  width:80vw;
+}
+.textArea{
+  background: rgba(0, 0, 0, 0.329);
+  margin-top: 5px;
+  margin-left: 2px;
+  padding-top: 20px;
+   height:95vh;
+   width: 78vw;
+   color: #eee;
+   outline: none;
+   border: none;
+   font-size: 20px;
+   line-height: 1.5;
+}
+
+
